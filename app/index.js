@@ -12,8 +12,20 @@ const routes = [
   {
     path: '/',
     name: 'index',
-    component: Index,
+    component: Index
   },
+
+  // {
+  //   path: '/new'
+  //   name: 'new',
+  //   component: New
+  // },
+  //
+  // {
+  //   path: '/detail',
+  //   name: 'detail',
+  //   component: Detail
+  // }
 ];
 
 const router = new VueRouter({

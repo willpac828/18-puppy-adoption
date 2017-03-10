@@ -4,12 +4,21 @@
 // What did I do by uncommenting this?
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
-@import 'bulma/bulma';
+@import 'bulma';
 @import 'font-awesome';
 @import 'box-sizing';
+@import 'resets';
 
+// cullahs
 $c-blue: hsl(218, 71%, 53%);
 $c-primary: $c-blue;
+$c-adopted: #48d14f;
+$c-text: #000;
+$c-side-bar-head: #ddd;
+
+// Measurements
+$m-max-width: 60rem;
+$m-gutter: 1rem;
 
 
 .nav {
