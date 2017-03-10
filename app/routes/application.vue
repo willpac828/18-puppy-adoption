@@ -24,38 +24,59 @@
               <p class="panel-heading">Adopt a Pupper</p>
 
               <div class="panel-block">
-                <figure class="img is-24x24">
+                <figure class="image is-64x64">
                 <img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg" alt="" class="">
               </figure>
+                <div class="panel-block__info">
                 <p class="panel-block__name">Esco</p>
-                <router-link to="/detail" class="panel-block__info">Read More</a>
+                <router-link to="/detail" class="panel-block__more">Read More</a>
               </div>
-              <div class="panel-block__item">
-                <figure class="img is-24x24">
+            </div>
+
+              <div class="panel-block">
+                <figure class="image is-64x64">
                 <img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg" alt="" class="">
               </figure>
-                <p class="panel-block__name">Esco</p>
-                <router-link to="/detail" class="panel-block__info">Read More</a>
+              <div class="panel-block__info">
+              <p class="panel-block__name">Esco</p>
+              <router-link to="/detail" class="panel-block__more">Read More</a>
+            </div>
               </div>
               <div class="panel-block">
-                <img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg" alt="" class="panel-block__img">
-                <p class="panel-block__name">Esco</p>
-                <router-link to="/detail" class="panel-block__info">Read More</a>
+                <figure class="image is-64x64">
+                <img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg" alt="" class="">
+              </figure>
+              <div class="panel-block__info">
+              <p class="panel-block__name">Esco</p>
+              <router-link to="/detail" class="panel-block__more">Read More</a>
+            </div>
               </div>
               <div class="panel-block">
-                <img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg" alt="" class="panel-block__img">
-                <p class="panel-block__name">Esco</p>
-                <router-link to="/detail" class="panel-block__info">Read More</a>
+                <figure class="image is-64x64">
+                <img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg" alt="" class="">
+              </figure>
+              <div class="panel-block__info">
+              <p class="panel-block__name">Esco</p>
+              <router-link to="/detail" class="panel-block__more">Read More</a>
+            </div>
               </div>
               <div class="panel-block">
-                <img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg" alt="" class="panel-block__img">
-                <p class="panel-block__name">Esco</p>
-                <router-link to="/detail" class="panel-block__info">Read More</a>
+                <figure class="image is-64x64">
+                <img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg" alt="" class="">
+              </figure>
+              <div class="panel-block__info">
+              <p class="panel-block__name">Esco</p>
+              <router-link to="/detail" class="panel-block__more">Read More</a>
+            </div>
               </div>
               <div class="panel-block">
-                <img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg" alt="" class="panel-block__img">
-                <p class="panel-block__name">Esco</p>
-                <router-link to="/detail" class="panel-block__info">Read More</a>
+                <figure class="image is-64x64">
+                <img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg" alt="" class="">
+              </figure>
+              <div class="panel-block__info">
+              <p class="panel-block__name">Esco</p>
+              <router-link to="/detail" class="panel-block__more">Read More</a>
+            </div>
               </div>
             </div>
           </div>
@@ -72,6 +93,7 @@
                     <tr>
                       <th class="table-head">Name</th>
                       <th class="table-head">Age</th>
+                      <th></th>
                     </tr>
                   </thead>
                   <tr>
@@ -89,6 +111,7 @@
                       <tr>
                         <th class="table-head">Name</th>
                         <th class="table-head">Age</th>
+                        <th></th>
                       </tr>
 
                     </thead>

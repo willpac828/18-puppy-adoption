@@ -1,0 +1,44 @@
+// cullahs
+$c-blue: hsl(218, 71%, 53%);
+$c-primary: $c-blue;
+$c-adopted: #48d14f;
+$c-text: #000;
+$c-side-bar-head: #eee;
+
+
+// Measurements
+$m-max-width: 60rem;
+$m-gutter: 1rem;
+
+.main-section {
+  display: block;
+
+  &__head {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-size: 2rem;
+  }
+
+  &__button {
+    border: 0;
+    border-radius: 5%;
+    background: $c-primary;
+    color: $c-side-bar-head;
+  }
+}
+
+.table-head {
+  font-weight: normal;
+}
+
+.table-data {
+  font-weight: bold;
+}
+
+.rm {
+  color: $c-primary;
+  font-weight: normal;
+}
