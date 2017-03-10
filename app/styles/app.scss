@@ -1,6 +1,26 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+// What did I do by uncommenting this?
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+
+@import 'bulma/bulma';
+@import 'font-awesome';
 @import 'box-sizing';
+
+$c-blue: hsl(218, 71%, 53%);
+$c-primary: $c-blue;
+
+
+.nav {
+  background-color: $c-primary;
+
+  &-item {
+    color: white-bis;
+  }
+}
+
+.is-brand {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
