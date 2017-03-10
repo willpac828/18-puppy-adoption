@@ -16,25 +16,68 @@ $c-adopted: #48d14f;
 $c-text: #000;
 $c-side-bar-head: #ddd;
 
+
 // Measurements
 $m-max-width: 60rem;
 $m-gutter: 1rem;
 
 
+
 .nav {
   background-color: $c-primary;
 
-  &-item {
-    color: white-bis;
+  a.nav-item,
+  .nav-item a {
+    color: $white-bis;
   }
+}
+
+.nav-right {
+  display: flex;
+  padding-left: 1rem;
+}
+
+.router-link {
+  color: white;
 }
 
 .is-brand {
   font-size: 1.2rem;
   font-weight: normal;
+
 }
 
+.container {
+  max-width: 60rem;
+}
 
-.side-bar__head {
+.panel-block {
+
+  &__img {
+
+  }
+}
+.panel-block__info {
+  color: $c-primary;
+}
+
+.panel-heading {
   background-color: $c-side-bar-head;
+}
+
+.main-section__head {
+  display: flex;
+}
+
+.main-section__title {
+  font-size: 2rem;
+}
+
+.main-section__button {
+  border: 0;
+  background: $c-primary;
+}
+
+.table-head {
+  font-weight: normal;
 }
