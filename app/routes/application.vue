@@ -29,7 +29,7 @@
               </figure>
                 <div class="panel-block__info">
                 <p class="panel-block__name">Esco</p>
-                <router-link to="/detail" class="panel-block__more">Read More</a>
+                <router-link to="/detail/:id" class="panel-block__more">Read More</a>
               </div>
             </div>
 
@@ -39,7 +39,7 @@
               </figure>
               <div class="panel-block__info">
               <p class="panel-block__name">Esco</p>
-              <router-link to="/detail" class="panel-block__more">Read More</a>
+              <router-link to="/detail:id" class="panel-block__more">Read More</a>
             </div>
               </div>
               <div class="panel-block">
@@ -48,7 +48,7 @@
               </figure>
               <div class="panel-block__info">
               <p class="panel-block__name">Esco</p>
-              <router-link to="/detail" class="panel-block__more">Read More</a>
+              <router-link to="/detail:id" class="panel-block__more">Read More</a>
             </div>
               </div>
               <div class="panel-block">
@@ -57,7 +57,7 @@
               </figure>
               <div class="panel-block__info">
               <p class="panel-block__name">Esco</p>
-              <router-link to="/detail" class="panel-block__more">Read More</a>
+              <router-link to="/detail:id" class="panel-block__more">Read More</a>
             </div>
               </div>
               <div class="panel-block">
@@ -66,7 +66,7 @@
               </figure>
               <div class="panel-block__info">
               <p class="panel-block__name">Esco</p>
-              <router-link to="/detail" class="panel-block__more">Read More</a>
+              <router-link to="/detail:id" class="panel-block__more">Read More</a>
             </div>
               </div>
               <div class="panel-block">
@@ -75,7 +75,7 @@
               </figure>
               <div class="panel-block__info">
               <p class="panel-block__name">Esco</p>
-              <router-link to="/detail" class="panel-block__more">Read More</a>
+              <router-link to="/detail:id" class="panel-block__more">Read More</a>
             </div>
               </div>
             </div>
