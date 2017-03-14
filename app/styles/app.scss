@@ -25,3 +25,10 @@ $c-side-bar-head: #eee;
 // Measurements
 $m-max-width: 60rem;
 $m-gutter: 1rem;
+
+.detail-pup {
+  display: flex;
+  justify-content: center;
+  max-width: 25rem;
+  margin: auto;
+}
