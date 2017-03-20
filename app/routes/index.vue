@@ -16,7 +16,7 @@
         <tr>
           <td class="table-data">Zombie Kid</td>
           <td class="table-data">10</td>
-          <td class="table-data rm">Read More</td>
+          <router-link to="/detail/:id" class="panel-block__more"><td class="table-data rm">Read More</td></a>
         </tr>
       </table>
       <div class="main-section">
@@ -35,27 +35,27 @@
           <tr>
             <td class="table-data">Luna</td>
             <td class="table-data">2</td>
-            <td class="table-data rm">Read More</td>
+            <router-link to="/detail/:id" class="panel-block__more"><td class="table-data rm">Read More</td></a>
           </tr>
           <tr>
             <td class="table-data">Mojo Jojo</td>
             <td class="table-data">27</td>
-            <td class="table-data rm">Read More</td>
+            <router-link to="/detail/:id" class="panel-block__more"><td class="table-data rm">Read More</td></a>
           </tr>
           <tr>
             <td class="table-data">Foobar</td>
             <td class="table-data">18 mo.</td>
-            <td class="table-data rm">Read More</td>
+            <router-link to="/detail/:id" class="panel-block__more"><td class="table-data rm">Read More</td></a>
           </tr>
           <tr>
             <td class="table-data">Marvin</td>
             <td class="table-data">3 years</td>
-            <td class="table-data rm">Read More</td>
+            <router-link to="/detail/:id" class="panel-block__more"><td class="table-data rm">Read More</td></a>
           </tr>
           <tr>
             <td class="table-data">Shawarma</td>
             <td class="table-data">2 Shawarma</td>
-            <td class="table-data rm">Read More</td>
+            <router-link to="/detail/:id" class="panel-block__more"><td class="table-data rm">Read More</td></a>
           </tr>
         </table>
       </div>

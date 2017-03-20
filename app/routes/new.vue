@@ -72,6 +72,8 @@
 
 <script>
 export default {
+
+  // Makes it so the input data turns into this formValues object
   data() {
     return {
       formValues: {

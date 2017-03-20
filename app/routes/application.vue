@@ -29,7 +29,8 @@
               </figure>
                 <div class="panel-block__info">
                 <p class="panel-block__name">Esco</p>
-                <router-link to="/detail/:id" class="panel-block__more">Read More</a>
+                 <!-- passing in the parameter :id so that it routes to w/e the id page is of that pup -->
+                <router-link to="/detail/:id" class="panel-block__more">Read More</router-link>
               </div>
             </div>
 
@@ -39,7 +40,7 @@
               </figure>
               <div class="panel-block__info">
               <p class="panel-block__name">Esco</p>
-              <router-link to="/detail:id" class="panel-block__more">Read More</a>
+              <router-link to="/detail/:id" class="panel-block__more">Read More</router-link>
             </div>
               </div>
               <div class="panel-block">
@@ -48,7 +49,7 @@
               </figure>
               <div class="panel-block__info">
               <p class="panel-block__name">Esco</p>
-              <router-link to="/detail:id" class="panel-block__more">Read More</a>
+              <router-link to="/detail/:id" class="panel-block__more">Read More</router-link>
             </div>
               </div>
               <div class="panel-block">
@@ -57,7 +58,7 @@
               </figure>
               <div class="panel-block__info">
               <p class="panel-block__name">Esco</p>
-              <router-link to="/detail:id" class="panel-block__more">Read More</a>
+              <router-link to="/detail/:id" class="panel-block__more">Read More</router-link>
             </div>
               </div>
               <div class="panel-block">
@@ -66,7 +67,7 @@
               </figure>
               <div class="panel-block__info">
               <p class="panel-block__name">Esco</p>
-              <router-link to="/detail:id" class="panel-block__more">Read More</a>
+              <router-link to="/detail/:id" class="panel-block__more">Read More</router-link>
             </div>
               </div>
               <div class="panel-block">
@@ -75,7 +76,7 @@
               </figure>
               <div class="panel-block__info">
               <p class="panel-block__name">Esco</p>
-              <router-link to="/detail:id" class="panel-block__more">Read More</a>
+              <router-link to="/detail/:id" class="panel-block__more">Read More</router-link>
             </div>
               </div>
             </div>
