@@ -1,4 +1,7 @@
+// {} below means it's a property of redux?
 import { combineReducers } from 'redux';
-import puppies from 'puppies';
+import puppies from './reducer/puppies';
 
-export
+export default combineReducers({
+  puppies,
+});

@@ -23,61 +23,17 @@
                <!-- Should this p tag be in a div? -->
               <p class="panel-heading">Adopt a Pupper</p>
 
-              <div class="panel-block">
+              <div class="panel-block" v-for="puppy in puppies">
+                <!-- <pre>{{puppy}}</pre> -->
                 <figure class="image is-64x64">
-                <img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg" alt="" class="">
-              </figure>
+                  <!-- have to do v-bind for attributes, not {{}} -->
+                  <img v-bind:src="puppy.image_url" alt="" class="">
+                </figure>
                 <div class="panel-block__info">
-                <p class="panel-block__name">Esco</p>
-                 <!-- passing in the parameter :id so that it routes to w/e the id page is of that pup -->
-                <router-link to="/detail/:id" class="panel-block__more">Read More</router-link>
-              </div>
-            </div>
-
-              <div class="panel-block">
-                <figure class="image is-64x64">
-                <img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg" alt="" class="">
-              </figure>
-              <div class="panel-block__info">
-              <p class="panel-block__name">Esco</p>
-              <router-link to="/detail/:id" class="panel-block__more">Read More</router-link>
-            </div>
-              </div>
-              <div class="panel-block">
-                <figure class="image is-64x64">
-                <img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg" alt="" class="">
-              </figure>
-              <div class="panel-block__info">
-              <p class="panel-block__name">Esco</p>
-              <router-link to="/detail/:id" class="panel-block__more">Read More</router-link>
-            </div>
-              </div>
-              <div class="panel-block">
-                <figure class="image is-64x64">
-                <img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg" alt="" class="">
-              </figure>
-              <div class="panel-block__info">
-              <p class="panel-block__name">Esco</p>
-              <router-link to="/detail/:id" class="panel-block__more">Read More</router-link>
-            </div>
-              </div>
-              <div class="panel-block">
-                <figure class="image is-64x64">
-                <img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg" alt="" class="">
-              </figure>
-              <div class="panel-block__info">
-              <p class="panel-block__name">Esco</p>
-              <router-link to="/detail/:id" class="panel-block__more">Read More</router-link>
-            </div>
-              </div>
-              <div class="panel-block">
-                <figure class="image is-64x64">
-                <img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg" alt="" class="">
-              </figure>
-              <div class="panel-block__info">
-              <p class="panel-block__name">Esco</p>
-              <router-link to="/detail/:id" class="panel-block__more">Read More</router-link>
-            </div>
+                  <p class="panel-block__name">{{puppy.name}}</p>
+                   <!-- passing in the parameter :id so that it routes to w/e the id page is of that pup -->
+                  <router-link :to="{ name: 'detail', params: {id: puppy.id} }" class="panel-block__more">Read More</router-link>
+                </div>
               </div>
             </div>
           </div>
@@ -92,10 +48,24 @@
   </div>
 </template>
 
+
 <script>
+
+// our app needs to know about store
+import store from '../store';
+import { findAll } from '../actions/puppy';
+
 export default {
   data() {
-    return {};
+    return {
+      // lets component know about changes to puppies
+      puppies: this.$select('puppies'),
+    };
+  },
+
+  mounted() {
+    // runs when page renders. tells find all to do it's fetch
+    store.dispatch(findAll());
   },
 
   methods: {
