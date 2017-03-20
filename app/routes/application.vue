@@ -4,7 +4,7 @@
 
        <!-- Why not v-bind for this attribute? -->
       <h2 class="nav-left">
-        <router-link :to= "{ name: 'index' }" class="nav-item is-brand">Puppies<router-link/>
+        <router-link :to= "{ name: 'index' }" class="nav-item is-brand">Puppies</router-link>
       </h2>
 
       <div class="nav-right">

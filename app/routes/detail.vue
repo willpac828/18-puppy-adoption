@@ -2,7 +2,7 @@
 
     <div class="main-section">
       <div class="main-section__head">
-        <h2 class="main-section__title">{{}}</h2>
+        <h2 class="main-section__title">Reggi</h2>
         <button class="button is-primary">Adopt Me!</button>
       </div>
       <figure class="image detail-pup">
@@ -10,10 +10,10 @@
       </figure>
       <div class="tabs is-fullwidth">
         <ul>
-          <li>Age</li>
-          <li>Color</li>
-          <li>Breed</li>
-          <li>Sex</li>
+          <li class="detail-list">Age</li>
+          <li class="detail-list">Color</li>
+          <li class="detail-list">Breed</li>
+          <li class="detail-list">Sex</li>
         </ul>
       </div>
 
